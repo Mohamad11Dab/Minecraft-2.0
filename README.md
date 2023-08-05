@@ -2,7 +2,10 @@
 
 **Description: Minecraft-Like Simulation**
 
-In this completed simulation project, a simplified version of a game similar to Minecraft has been developed. The game involves entities, both flora (plants) and fauna (animals), moving around a 2-dimensional grid-like environment represented by tiles. The main class in this simulation is the "Scenario," which maintains a record of all inhabitants of the environment and their movements and interactions.
+In this completed simulation project, a simplified version of a game similar to Minecraft has been developed. The game involves entities, The user plus both flora (plants) and fauna (animals), moving around a 2-dimensional grid-like environment represented by tiles. The main class in this simulation is the "Scenario," which maintains a record of all inhabitants of the environment and their movements and interactions.
+
+![image](https://github.com/Mohamad11Dab/Minecraft-2.0/assets/114811082/13c6234d-4fb9-47e0-825f-776c76a42e4f)
+
 
 **Key Components:**
 
@@ -17,7 +20,7 @@ In this completed simulation project, a simplified version of a game similar to 
 - Each tile can have an inhabitant (entity) residing within it.
 
 3. `Entities:`
-- Entities are divided into two main types: flora (plants) and fauna (animals).
+- Entities are divided into three main types: User (You), flora (plants) and fauna (animals).
 - An entity's characteristics, such as its size, define what type of tile it can inhabit.
 - Some animals can only live in water-based tiles, while others can only live in land-based tiles.
 
@@ -35,4 +38,3 @@ In this completed simulation project, a simplified version of a game similar to 
 7. `Graphical User Interface (GUI):`
 - A graphical user interface has been implemented to visualize the entities moving around the map.
 - The GUI displays the scenario, entities, and interactions for user interaction and observation.
-
